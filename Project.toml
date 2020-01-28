@@ -1,0 +1,12 @@
+name = "Hierarchical"
+uuid = "323f7c68-8da3-4412-bc53-1d16459cc309"
+authors = ["vincentcp <vincent.coppe@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
+FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
+GridArrays = "356ae075-8bc9-5ef9-a342-46c9ba26438c"
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
