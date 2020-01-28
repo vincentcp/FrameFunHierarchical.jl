@@ -1,6 +1,6 @@
 name = "Hierarchical"
 uuid = "323f7c68-8da3-4412-bc53-1d16459cc309"
-authors = ["vincentcp <vincent.coppe@gmail.com>"]
+authors = ["vincentcp"]
 version = "0.1.0"
 
 [deps]
@@ -10,3 +10,12 @@ GridArrays = "356ae075-8bc9-5ef9-a342-46c9ba26438c"
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+[compat]
+julia = "1.1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
